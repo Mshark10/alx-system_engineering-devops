@@ -1,2 +1,2 @@
 #!/bin/bash
-tr 'A-Za-z' 'N-ZA-Mn-Zs-m'
+sed -n 'p;n' "$@"
